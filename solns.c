@@ -96,7 +96,6 @@ int min(int a[], int b){
   
   
 }
-
 int mode(int a[] , int b){
   
   int count = 0;
@@ -109,16 +108,16 @@ int mode(int a[] , int b){
         count++;
       }
       
-      if(count>sum){
+      
+    }
+    
+    if(count>sum){
         
         sum = count;
         r = a[x];
       }
-
-     count=0;
-    }
     
-    
+    count = 0;
     
   }
   
