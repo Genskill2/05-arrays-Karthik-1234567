@@ -114,7 +114,8 @@ int mode(int a[] , int b){
         sum = count;
         r = a[x];
       }
-      
+
+     count=0;
     }
     
     
